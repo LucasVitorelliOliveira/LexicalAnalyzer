@@ -45,6 +45,16 @@ public class DragonDevZGrammar : Grammar
 
         foreach (var palavra in palavrasReservadas)
             this.KeyTerms[palavra] = ToTerm(palavra);
+        
+        this.KeyTerms["Goku"].Name = "Função Principal";
+        this.KeyTerms["Vegeta"].Name = "Condicional (Se)";
+        this.KeyTerms["Majin"].Name = "Então";
+        this.KeyTerms["Bulma"].Name = "Condicional (Senão)";
+        this.KeyTerms["Yamcha"].Name = "Entrada";
+        this.KeyTerms["Freeza"].Name = "Saída";
+        this.KeyTerms["Dabura"].Name = "Retorno";
+        this.KeyTerms["Kuririn"].Name = "Enquanto";
+        this.KeyTerms["Napa"].Name = "Para";
 
         // ------------------------------------------
         // Operadores personalizados
@@ -68,7 +78,26 @@ public class DragonDevZGrammar : Grammar
 
         // Registra os operadores complexos primeiro
         foreach (var op in simbolosCompostos)
+        {
             this.KeyTerms[op] = ToTerm(op);
+            this.KeyTerms[op].Name = op switch
+            {
+                "+>" => "Operador de Soma",
+                "<-" => "Operador de Subtração",
+                "*>" => "Operador de Multiplicação",
+                "</" => "Operador de Divisão",
+                "<" => "Atribuição",
+                "<<>>" => "Operador de Igualdade",
+                "<!>" => "Operador de Diferença",
+                ">>" => "Maior que",
+                "<<" => "Menor que",
+                "<<=" => "Menor ou Igual",
+                "=>>" => "Maior ou Igual",
+                "@" => "E lógico",
+                "#" => "OU lógico",
+                _ => "Operador"
+            };
+        }
 
         // ------------------------------------------
         // Símbolos e pontuação
@@ -76,7 +105,19 @@ public class DragonDevZGrammar : Grammar
         var simbolos = new[] { ";", "/", "\\", "?", "¿" };
 
         foreach (var simbolo in simbolos)
-            this.KeyTerms[simbolo] = ToTerm(simbolo);
+        {
+            var term = ToTerm(simbolo);
+            term.Name = simbolo switch
+            {
+                ";" => "Fim de Instrução",
+                "/" => "Início de Escopo",
+                "\\" => "Fim de Escopo",
+                "?" => "Abre Parêntese",
+                "¿" => "Fecha Parêntese",
+                _ => "Símbolo"
+            };
+            this.KeyTerms[simbolo] = term;
+        }
 
         // ------------------------------------------
         // Regra de Root (mínima para funcionar)

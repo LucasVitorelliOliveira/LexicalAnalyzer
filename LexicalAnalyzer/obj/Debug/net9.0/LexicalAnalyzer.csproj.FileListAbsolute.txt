@@ -1,0 +1,17 @@
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\bin\Debug\net9.0\LexicalAnalyzer.exe
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\bin\Debug\net9.0\LexicalAnalyzer.deps.json
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\bin\Debug\net9.0\LexicalAnalyzer.runtimeconfig.json
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\bin\Debug\net9.0\LexicalAnalyzer.dll
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\bin\Debug\net9.0\LexicalAnalyzer.pdb
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\bin\Debug\net9.0\Irony.dll
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\obj\Debug\net9.0\LexicalAnalyzer.csproj.AssemblyReference.cache
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\obj\Debug\net9.0\LexicalAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\obj\Debug\net9.0\LexicalAnalyzer.AssemblyInfoInputs.cache
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\obj\Debug\net9.0\LexicalAnalyzer.AssemblyInfo.cs
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\obj\Debug\net9.0\LexicalAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\obj\Debug\net9.0\LexicalA.C8E54C6E.Up2Date
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\obj\Debug\net9.0\LexicalAnalyzer.dll
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\obj\Debug\net9.0\refint\LexicalAnalyzer.dll
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\obj\Debug\net9.0\LexicalAnalyzer.pdb
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\obj\Debug\net9.0\LexicalAnalyzer.genruntimeconfig.cache
+C:\Users\Lucas Vitorelli\Desktop\LexicalAnalyzer-main\LexicalAnalyzer\obj\Debug\net9.0\ref\LexicalAnalyzer.dll
